@@ -50,10 +50,10 @@ Be advised that if you're working with Docker, you'll probably need to rebuild t
 
 ### Gotchas
 
-For the sake of fairness, I (Philip) haven't just written the exercise, I've also completed it. Here's some things I had to figure out:
+Some things that you may find helpful while doing this exercise:
 
  * sqlite3.Row is great, but doesn't convert to a dict without a little help.
- * For security purposes, Bottle will treat `return {...}` as a JSON response, but not `return [...]`. I learned a lot about [JSON hijacking](http://haacked.com/archive/2009/06/25/json-hijacking.aspx/) when writing the exercise.
+ * For security purposes, Bottle will treat `return {...}` as a JSON response, but not `return [...]`. This is to prevent [JSON hijacking](http://haacked.com/archive/2009/06/25/json-hijacking.aspx/).
  * `db.cursor().execute(sql, args)` _always_ takes args as a tuple (or other iterable), not an `*args` expansion.
 
 ### Contributing
