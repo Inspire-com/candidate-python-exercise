@@ -1,5 +1,5 @@
 FROM alpine:latest
-RUN apk add --no-cache python3 vim
+RUN apk add --no-cache python3 py-pip vim
 
 RUN mkdir -p /usr/src/app
 COPY . /usr/src/app
