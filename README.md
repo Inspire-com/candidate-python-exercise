@@ -1,14 +1,14 @@
 # Inspire Candidate Exercise
 
-At Inspire, we care about hiring talented people, because we all rely on each other on a regular basis. This exercise isn't meant to be some exhaustive thing - you may find it very easy, or you may have to learn new things to finish it - but the point is to act as a sanity check of your ability to work with Python in an HTTP context. If you have an applicable prior project, you can share the source for that, instead of doing this exercise. But either way, we don't want to eat up your day, we just want to confirm that you can do the stuff that we do for a living!
+At Inspire, we care about hiring talented people, because we all rely on each other on a regular basis. This exercise isn't meant to be some exhaustive thing - you may find it very easy, or you may have to learn new things to finish it - but the point is to act as a sanity check of your ability to work with Python in an HTTP context. We don't want to eat up your day, we just want to confirm that you can do the stuff that we do for a living!
 
 ### The Goal
 
 We care a lot about testing, so we've provided you with the test file `tests/test_integration.py`. You can run it with the `pytest` command.
 
-When all tests pass, you've finished the exercise! The tests are written as _documentation_ of what features you need to add, so please read the test source.
+When all tests pass and you're happy with the way the code looks, you've finished the exercise! The tests are written as _documentation_ of what features you need to add, so please read the test source.
 
-When your exercise is complete, wrap up this directory in a zip file and send your work over to us.
+When the exercise is complete, send your `app.py` script over to us.
 
 ### The Playing Field
 
@@ -17,7 +17,7 @@ So what are we asking for here? We'd like you to make changes to `app.py` (and _
 1. A very simple webserver using the [BottlePy](https://bottlepy.org/docs/dev/api.html) microframework, and
 2. An in-memory sqlite database, with a `wombat` table that has a handful of records.
 
-Your goal is to add some endpoints to the webserver which interact with the database. Brevity and clarity are appreciated. Read the tests for more detail.
+Your goal is to add endpoints to the webserver which interact with the in-memory database. Brevity and clarity are appreciated.Read the tests for more detail.
 
 ### Setting Up
 
@@ -58,7 +58,7 @@ Some things that you may find helpful while doing this exercise:
 
 ### Contributing
 
-To submit a completed exercise, put your repo in a .zip file and send it to us as part of your hiring communications. 
-Please do *not* modify the tests. If you feel there is an error in the tests, or in the exercise more broadly, contact us.
+To submit the exercise, send your completed `app.py` file to us as part of your hiring communications.
+Please do *not* modify the tests. If you feel there is an error in the tests or the exercise more broadly, contact us or submit a PR.
 
-To contribute improvements to the exercise itself such as the Dockerfile, feel free to make a PR here! We want this repo to test basic skills, but otherwise be as frictionless as possible. People should not fail out because their environment was a little funky or the instructions weren't clear.
+To contribute improvements to the exercise itself, like the Dockerfile or README, feel free to make a PR here! We want this repo to evaluate basic skills and choices, but otherwise be as frictionless as possible. People should not fail out because their environment was a little funky or the instructions weren't clear.
