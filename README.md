@@ -12,12 +12,12 @@ When the exercise is complete, send your `app.py` script over to us.
 
 ### The Playing Field
 
-So what are you even working on here? Well, you're making changes to `app.py` to get it to pass the tests. This file contains:
+So what are we asking for here? We'd like you to make changes to `app.py` (and _only_ app.py) to get it to pass the tests. This file contains:
 
 1. A very simple webserver using the [BottlePy](https://bottlepy.org/docs/dev/api.html) microframework, and
 2. An in-memory sqlite database, with a `wombat` table that has a handful of records.
 
-Your goal is to add endpoints to the webserver which interact with the in-memory database. Read the tests for more detail.
+Your goal is to add endpoints to the webserver which interact with the in-memory database. Brevity and clarity are appreciated.Read the tests for more detail.
 
 ### Setting Up
 
@@ -36,7 +36,7 @@ source .venv/bin/activate
 pip install -r requirements.txt # Feel free to add to requirements.txt if you need, but you shouldn't need to
 ```
 
-Ah, but what if you're on Windows, or otherwise don't want to set up an environment on your host machine? We also provide a `Dockerfile` for you.
+If you're using Windows, or otherwise don't want to set up an environment on your host machine, we also provide a `Dockerfile`.
 
 ```bash
 docker build -t inspire-ce .
@@ -46,7 +46,7 @@ docker run -it inspire-ce sh # Start shell inside docker container
 docker run -it -p=8080:8080 inspire-ce
 ```
 
-Be advised that if you're working with Docker, you'll probably need to rebuild the image repeatedly as part of your core feedback loop.
+Be advised that if you're working with Docker, you'll need to mount a volume or rebuild the image repeatedly as part of your core feedback loop.
 
 ### Gotchas
 
