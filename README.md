@@ -58,7 +58,7 @@ Some things that you may find helpful while doing this exercise:
 
 ### Contributing
 
-To submit a the exercise, send your completed `app.py` file to us as part of your hiring communications.
+To submit the exercise, send your completed `app.py` file to us as part of your hiring communications.
 Please do *not* modify the tests. If you feel there is an error in the tests or the exercise more broadly, contact us or submit a PR.
 
 To contribute improvements to the exercise itself, like the Dockerfile or README, feel free to make a PR here! We want this repo to evaluate basic skills and choices, but otherwise be as frictionless as possible. People should not fail out because their environment was a little funky or the instructions weren't clear.
